@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome,.welcome1{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.inputtag,.inputtag1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover{ 
+    background-color: lightseagreen;
+}
+
